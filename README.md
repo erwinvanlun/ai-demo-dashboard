@@ -6,17 +6,20 @@ Context
 
 Je werkt als ervaren frontend developer in een team waar AI-assistenten (zoals ChatGPT, Claude, Cursor of Cline) actief worden ingezet tijdens development.
 
+
+Wij suggeren hier het gebruik van Cursor, een speciale versie van VS Studio Code waar AI totaal is geintegreerd, omdat de eerste week gebruik gratis is.
+
 In deze challenge bouw je samen met AI een frontend dashboard applicatie, startend vanuit een lege repository met alleen deze README.md.
 
 De focus ligt niet op pixel-perfect UI, maar op:
 
-- architectuur & structuur
+- teamwork, zowel met elkaar als met jullie AI
 
-- slimme inzet van AI
+- architectuur & structuur en consistentie
 
-- frontend best-practices
+- slimme inzet van AI op alle (onverwachte) terreinen.
 
-- duidelijke keuzes en trade-offs onder tijdsdruk
+- vastleggen van beperkingen en verassende mogelijkheden van AI
 
 🎯 Doel
 
@@ -28,43 +31,36 @@ De applicatie moet:
 
 - status tonen (loading / error / success)
 
-- data visualiseren of structureren
+- data visualiseren en/of structureren
 
 - enige vorm van interactie bevatten
 
-- eenvoudig uitbreidbaar zijn
+- een minimale vorm van testing hebben.
+
 
 🧱 Functionele eisen
 1. Dashboard layout
 
 Het dashboard bevat minimaal:
 
-Header
+- Header
+  - titel van de applicatie
+  - korte beschrijving of context
 
-- titel van de applicatie
+- Main content
+  - twee of meer "widgets" / panels
+  - elke widget toont data uit een API
+  - widgets mogen verschillend van type zijn (lijst, kaart, tabel, grafiek, detailpaneel)
+  - advanced: combineer data van verschillende bronnen
 
-- korte beschrijving of context
-
-Main content
-
-- één of meerdere "widgets" / panels
-
-- elke widget toont data uit een API
-
-- widgets mogen verschillend van type zijn (lijst, kaart, tabel, grafiek, detailpaneel)
-
-State feedback
-
-- loading indicator
-
-- foutafhandeling
-
-- lege state (indien van toepassing)
+- State feedback
+  - loading indicator
+  - foutafhandeling
+  - lege state (indien van toepassing)
 
 2. Data & API’s
 
-Gebruik minimaal één, maximaal drie van onderstaande API’s.
-Mocking is toegestaan als fallback, maar real API-gebruik heeft de voorkeur.
+Deze API’s hieronder zijn suggesties. Ken je betere, leukere? Voel je vrij die te gebruiken. 
 
 Open API's (geen registratie nodig)
 - https://opendata.rdw.nl/resource/m9d7-ebf2.json?kenteken= + kenteken
@@ -111,15 +107,15 @@ Voorbeelden (je mag zelf variëren):
 🧠 Technische eisen
 Framework
 
-Gebruik een bekend frontend JavaScript framework
+Gebruik een bekend frontend JavaScript framework dat je collega's waarschijnlijk ook kennen. 
 
-- React / Vue / Angular / Svelte / Solid / etc.
+- React / Vue / Angular 
+- Met Typescript
 
-- TypeScript is sterk aanbevolen
 
 Best-practices
 
-Laat zien dat je ervaring hebt:
+Laat zien dat je ervaring hebt door je prompts aan AI goed te formuleren. 
 
 - duidelijke componentstructuur
 
@@ -138,11 +134,12 @@ Laat zien dat je ervaring hebt:
 
 Perfectie is niet vereist, helderheid wel.
 
+
 🤝 AI-gebruik (belangrijk)
 
 AI is onderdeel van de opdracht, geen valsspelen.
 
-Je mag AI gebruiken voor o.a.:
+Je mag AI gebruiken voor ALLES:
 
 - project setup
 
@@ -155,6 +152,8 @@ Je mag AI gebruiken voor o.a.:
 - boilerplate
 
 - refactoring
+
+- opzetten van tests
 
 - uitleg of alternatieven
 
@@ -194,9 +193,9 @@ Aan het einde van 2 uur verwachten we:
 - duidelijke structuur
 
 - (optioneel) korte notities in de README over:
-  - gemaakte keuzes
-  - wat je zou verbeteren met meer tijd
-  - hoe AI je geholpen heeft
+  - wat heb je geleerde tijdens deze 2 uur
+  - welke prompts heb je gebruikt? Wat werkte? Wat werkte niet? 
+  - wat je anders doen nu je 2 uur ervaring hebt?
 
 Geen deployment nodig.
 
