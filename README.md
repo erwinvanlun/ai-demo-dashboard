@@ -135,11 +135,13 @@ Laat zien dat je ervaring hebt door je prompts aan AI goed te formuleren.
 Perfectie is niet vereist, helderheid wel.
 
 
-🤝 AI-gebruik (belangrijk)
+🤝 AI-inzet 
 
 AI is onderdeel van de opdracht, geen valsspelen.
 
 Je mag AI gebruiken voor ALLES:
+
+- interpretatie van deze opdracht
 
 - project setup
 
@@ -155,15 +157,21 @@ Je mag AI gebruiken voor ALLES:
 
 - opzetten van tests
 
-- uitleg of alternatieven
+- runnen van tests
+
+- runnen van je lokale applicatie
+
+- bouwen van je applicatie
+
+uitleg of alternatieven
+
 
 Verwachting
 
-- Gebruik AI actief en bewust
+- Experimenteer!!!!! Durf fouten te maken. Durf 'te snel' te gaan. 
 
-- Laat zien dat jij de regie houdt
+- Na verwachting moet je zowel de structuur als elke  regel code kunnen verantwoorden
 
-- Blind copy-pasten zonder begrip is niet het doel
 
 🚀 Snel starten (belangrijk)
 
@@ -173,14 +181,16 @@ Aanpak
 
 - Open je AI-tool naar keuze (ChatGPT, Claude, Cursor, Cline, etc.)
 
-- Kopieer deze README
+- Laat AI deze README lezen. 'Hey AI, je volgende taak is beschreven in de README'.
 
 - Gebruik prompts zoals:
   - "Generate a minimal React + TypeScript dashboard scaffold based on this README"
   - "Suggest a clean component architecture for this challenge"
   - "Help me implement API X with proper loading & error handling"
 
-- Kies tooling waar je zelf snel mee bent.
+- Kies tooling waar je zelf snel mee bent en waarvan je verwacht dat de meeste collega's van je het ook beheersen.
+
+- Als je tevreden bent met het tussen resultaat: commit. Als je vindt dat AI een sub taak heeft afgerond, squash dan alle gerelateerde commits en review te code. Vraag dan AI om evt aanpassingen te doen op de code quality.
 
 🧪 Wat leveren we op?
 
