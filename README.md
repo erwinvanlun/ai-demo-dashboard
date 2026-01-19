@@ -137,15 +137,13 @@ Perfectie is niet vereist, helderheid wel.
 
 🤝 AI-inzet 
 
-AI is onderdeel van de opdracht, geen valsspelen.
-
 Je mag AI gebruiken voor ALLES:
 
 - interpretatie van deze opdracht
 
 - project setup
 
-- architectuurvoorstellen
+- architectuurvoorstellen en alternatieven
 
 - componentstructuur
 
@@ -163,7 +161,7 @@ Je mag AI gebruiken voor ALLES:
 
 - bouwen van je applicatie
 
-uitleg of alternatieven
+- doen van tussentijds git commits of commit analyses.
 
 
 Verwachting
@@ -183,14 +181,15 @@ Aanpak
 
 - Laat AI deze README lezen. 'Hey AI, je volgende taak is beschreven in de README'.
 
-- Gebruik prompts zoals:
+- Gebruik prompts zoals (nederlands werkt ook!)
+  - "Analyse the assignments and visit the API urls to check usability for today"
+  - "Suggest a clean component architecture for this challenge based on <x>"
   - "Generate a minimal React + TypeScript dashboard scaffold based on this README"
-  - "Suggest a clean component architecture for this challenge"
   - "Help me implement API X with proper loading & error handling"
 
 - Kies tooling waar je zelf snel mee bent en waarvan je verwacht dat de meeste collega's van je het ook beheersen.
 
-- Als je tevreden bent met het tussen resultaat: commit. Als je vindt dat AI een sub taak heeft afgerond, squash dan alle gerelateerde commits en review te code. Vraag dan AI om evt aanpassingen te doen op de code quality.
+- Als je tevreden bent met het tussen resultaat: commit. Als je vindt dat AI een sub taak heeft afgerond, squash dan alle gerelateerde commits en review de code. Vraag dan AI om evt aanpassingen te doen op de code quality.
 
 🧪 Wat leveren we op?
 
@@ -202,10 +201,10 @@ Aan het einde van 2 uur verwachten we:
 
 - duidelijke structuur
 
-- (optioneel) korte notities in de README over:
+- korte notities in de README over:
   - wat heb je geleerde tijdens deze 2 uur
-  - welke prompts heb je gebruikt? Wat werkte? Wat werkte niet? 
-  - wat je anders doen nu je 2 uur ervaring hebt?
+  - welke (key) prompts heb je gebruikt? Wat werkte? Wat werkte niet? (je hoeft niet elke prompt te documenteren)
+  - wat zou je de volgende keer anders doen nu je 2 uur ervaring hebt?
 
 Geen deployment nodig.
 
